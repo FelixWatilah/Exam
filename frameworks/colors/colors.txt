@@ -1,0 +1,12 @@
+#B6222A-red
+#0C272B-dark green
+#004A4F-light green
+#0A2729-green
+#003033-dark green
+#05121B-dark blue
+
+#262626-gray
+#171717-dark gray
+#2D3033-gray
+#3B3B3B-grey
+#F6F8F8-white smoke
