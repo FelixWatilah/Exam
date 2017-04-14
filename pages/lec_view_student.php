@@ -1,6 +1,6 @@
-<div class="panel panel-default">
-    <div class="row well">
-        <span class="col-md-3 text-center">
+<div class="well">
+    <div class="row">
+            <span class="col-md-3 text-center">
             <h2 class="text-primary"><strong>25</strong></h2>
             <h6 class="text-muted">Registered Students</h6>
         </span>
@@ -17,6 +17,8 @@
             <h6 class="text-muted">Failed</h6>
         </span>
     </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading">
         <h4 class="panel-title">Registered Students</h4>
     </div>

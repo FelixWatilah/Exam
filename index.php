@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="frameworks/fa/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="frameworks/jquery-ui/jquery-ui.min.js">
     <link rel="stylesheet" type="text/css" href="frameworks/w3css/w3css.css">
+    <link rel="stylesheet" type="text/css" href="frameworks/materialdesign/css/materialdesignicons.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -48,6 +49,9 @@
                     <h5 class="text-muted">Contact the Administrator on: +254 712423121 in case of any problem.</h5>
                 </div>
             </div>
+            <div >
+
+            </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12"></div>
     </div><!-- end login -->
@@ -59,5 +63,6 @@
 <script type="text/javascript" src="frameworks/Bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="frameworks/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="frameworks/moment/moment.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>

@@ -1,8 +1,8 @@
-<div class="panel panel-default">
-    <div class="row well">
-        <form action="" method="post" class="form-horizontal">
-            <fieldset>
-                <legend><h6><strong>UPDATE TIMETABLE</strong></h6></legend>
+<div class="well">
+    <form action="" method="post" class="form-horizontal">
+        <fieldset>
+            <legend><h6><strong><i class="fa fa-refresh"></i>&emsp;Update Timetable</strong></h6></legend>
+            <div class="row">
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="day" class="control-label col-lg-3 col-md-3 col-sm-12">Day:</label>
@@ -43,13 +43,14 @@
                         </div>
                     </div>
                 </div>
-            </fieldset>
-        </form>
-    </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading">
         <h6><strong>PERSONAL TIMETABLE</strong></h6>
     </div>
-
     <div class="panel-body">
         <div class="table">
             <table class="table table-bordered table-striped table-responsive">
@@ -61,35 +62,35 @@
                     <th>EVENING</th>
                 </tr>
                 <tr>
-                    <td>MONDAY</td>
+                    <td><strong>MONDAY</strong></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>TUESDAY</td>
+                    <td><strong>TUESDAY</strong></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>WEDNESDAY</td>
+                    <td><strong>WEDNESDAY</strong></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>THURSDAY</td>
+                    <td><strong>THURSDAY</strong></td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>FRIDAY</td>
+                    <td><strong>FRIDAY</strong></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -97,8 +98,5 @@
                 </tr>
             </table>
         </div>
-    </div>
-    <div class="panel-footer text-center">
-        <h6 class="text-muted">The above timetable can be modified for use in CATs, EXAMs and TEACHING.</h6>
     </div>
 </div>
