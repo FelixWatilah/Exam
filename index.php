@@ -25,27 +25,27 @@
                     <div class="row">
                         <div class="col l12 m12 s12">
                             <ul class="tabs">
-                                <li class="tab col s4"><a href="#student">Student</a></li>
-                                <li class="tab col s4"><a href="#lecturer">Lecturer</a></li>
-                                <li class="tab col s4"><a href="#admin">Admin</a></li>
+                                <li class="tab col s4"><a href="#student" name="user_type">Student</a></li>
+                                <li class="tab col s4"><a href="#lecturer" name="user_type">Lecturer</a></li>
+                                <li class="tab col s4"><a href="#admin" name="user_type">Admin</a></li>
                             </ul>
                         </div>
                         <div id="student" class="col l12 m12 s12">
                             <form action="#">
                                 <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                        <input id="disabled" type="text" class="validate">
+                                        <input id="disabled" type="text" name="adm_no" class="validate">
                                         <label for="disabled">Admission Number</label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                        <input id="password" type="password" class="validate">
+                                        <input id="password" type="password" name="stud_pass" class="validate">
                                         <label for="password">Password</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <a class="waves-effect waves-light btn left" role="button">Login</a>
+                                    <a class="waves-effect waves-light btn left" role="button" name="stud_submit" type="submit">Login</a>
                                     <a class="waves-effect waves-light btn right" role="button">Forgot Password</a>
                                 </div>
                             </form>
@@ -54,18 +54,18 @@
                             <form action="#">
                                 <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                        <input id="disabled" type="text" class="validate">
+                                        <input id="disabled" type="text" name="lec_number" class="validate">
                                         <label for="disabled">Lecturer Number</label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                        <input id="password" type="password" class="validate">
+                                        <input id="password" type="password" name="lec_pass" class="validate">
                                         <label for="password">Password</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <a class="waves-effect waves-light btn left">Login</a>
+                                    <a class="waves-effect waves-light btn left" role="button" name="lec_submit" type="submit">Login</a>
                                     <a class="waves-effect waves-light btn right">Forgot Password</a>
                                 </div>
                             </form>
@@ -74,18 +74,18 @@
                             <form action="#">
                                 <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                        <input id="disabled" type="text" class="validate">
+                                        <input id="disabled" type="text" name="admin" class="validate">
                                         <label for="disabled">Username</label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col l12 m12 s12">
-                                        <input id="password" type="password" class="validate">
+                                        <input id="password" type="password" name="admin_pass" class="validate">
                                         <label for="password">Password</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <a class="waves-effect waves-light btn left">Login</a>
+                                    <a class="waves-effect waves-light btn left" name="admin_submit" role="button" type="submit">Login</a>
                                     <a class="waves-effect waves-light btn right">Forgot Password</a>
                                 </div>
                             </form>
