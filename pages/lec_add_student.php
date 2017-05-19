@@ -27,7 +27,7 @@
                                 <label for="gender" class="control-label col-md-3">Gender:</label>
                                 <div class="col-md-9">
                                     <label class="radio-inline">
-                                        <input type="radio" name="gender">Male
+                                        <input type="radio" id="male" name="gender">Male
                                     </label>
                                     <label class="radio-inline" for="female">
                                         <input type="radio" id="female" name="gender">Female

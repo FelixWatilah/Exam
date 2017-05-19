@@ -7,7 +7,7 @@ a button{
     text-decoration: none;
 }
 fieldset{
-    border: 1px dotted #004A4F;
+    border: none;
     border-radius: 10px;
 }
 .container-fluid{
@@ -78,6 +78,9 @@ fieldset{
 }
 .form-horizontal .control-label{
     padding-top: 5px;
+}
+.form-control{
+    border-radius: 0;
 }
 div .form-group{
     width: 100%;

@@ -16,7 +16,7 @@
 <div class="row content">
     <?php include "../includes/side_menu.inc.php"; ?>
     <div class="col-lg-10 col-md-10 col-sm-12 pre-scrollable" id="lec_content">
-        <?php include "lec_add_student.php"; ?>
+        <?php include "lec_view_student.php"; ?>
     </div>
 </div>
 </div>
